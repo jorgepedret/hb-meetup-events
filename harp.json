@@ -1,0 +1,12 @@
+{
+  "domains": [ "yourdomain.com", "www.yourdomain.com" ],
+  "globals": {
+    "meetup_name": "CSS Brigade",
+    "title": "Your Meetup Name - Vancouver, Canada",
+    "description": "",
+    "analytics_id": "UA-41505020-1",
+    "twitter_url": "https://twitter.com/<your twitter username>",
+    "meetup_url": "http://www.meetup.com/<your meetup url>",
+    "speaker_submission_email": "yo@example.com"
+  }
+}

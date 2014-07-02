@@ -1,0 +1,20 @@
+{
+  "1": {
+    "date": "June 17th at 7pm",
+    "location": "Hootsuite Headquarters",
+    "map": "http://a.tiles.mapbox.com/v3/jorgepedret.map-2hotlmhu.html#16/49.26385/-123.10439000000004",
+    "passed": true
+  },
+  "2": {
+    "date": "August 19th at 7pm",
+    "location": "Hootsuite Headquarters",
+    "map": "http://a.tiles.mapbox.com/v3/jorgepedret.map-2hotlmhu.html#16/49.26385/-123.10439000000004",
+    "passed": true
+  },
+  "3": {
+    "date": "October 17th at 7pm",
+    "location": "The HiVE",
+    "map": "http://a.tiles.mapbox.com/v3/jorgepedret.map-ime5467u.html#16/49.28212616217404/-123.10778260231017",
+    "passed": false
+  }
+}

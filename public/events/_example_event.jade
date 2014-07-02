@@ -1,0 +1,99 @@
+h1 My awesome event! &mdash; #{ date } <small>at #{ location }</small> 
+!= partial("../_partials/map")
+
+h2 Speakers
+
+hr
+
+//- First speaker
+.row.speaker
+  .col-lg-3
+    //- First speaker’s avatar image
+    p: img(src="/img/speakers/roman-rudenko.png")
+    //- Relevant speaker links on the web
+    ul.list-inline
+      li: a(href="#") Website
+      li: a(href="#") Github
+      li: a(href="#") Twitter
+      li: a(href="#") Google Plus
+      li: a(href="#") Dribbble
+  .col-lg-9
+    //- Presentation title + speaker’s name
+    h3 Title of Talk <small>by Speaker’s Name</small>
+    
+    //- Description of presentation
+    p Handling scalable icons so they display properly in devices with different pixel density. Two different approaches will be illustrated:
+
+    ol
+      li Creating scalable custom fonts
+      li Sprited <code>background-image</code> and <code>background-size</code> to bring in resolution-independent icons.
+
+    //- Description of speaker
+    p Roman works at <a href="http://mobify.com">Mobify</a> as a CSS mad scientist, he mastered the guts of styling elements and uses it to his advantage to conquer the world.
+
+hr
+
+//- Second speaker (same structure as first speaker)
+//- Freely add/remove speakers to fit your event
+//- .row.speaker
+//-   .col-lg-3
+//-     p: img(src="/img/speakers/ryan-frederick.png")
+//-     ul.list-inline
+//-       li: a(href="http://ryanfrederick.com/") Website
+//-       li: a(href="https://twitter.com/ry5n") Twitter
+//-       li: a(href="https://github.com/ry5n") Github
+//-   .col-lg-9
+//-     h3 Modular CSS and the Rise of the Ugly Selector <small>by Ryan Frederick</small>
+
+//-     p Walk through some common CSS architectural pitfalls, using them as a lens through which to understand the challenges of writing good CSS in 2013.
+
+//-     p Ryan is a designer and front-end developer specialized in UX design and HTML/CSS architecture. Currently working on the redesign and CSS for <a href="https://drupal.org/">Drupal</a>&rsquo;s admin section.
+
+hr
+
+h2 Should I come to this Meetup?
+
+p <strong>Everybody</strong>’s always welcome to #{ meetup_name }. No matter what your level is, you’ll learn something new. Every meetup event is a bit different. You’ll especially enjoy this #{ meetup_name } if:
+
+//- Update this section with the keywords that will be learned in this single event
+
+ul
+  li You want to learn about:
+    ul
+      li <a href="http://alistapart.com/article/creating-style-guides">Style guides</a>
+      li Code maintainability
+      li Team collaboration
+      li Good code practices
+      li Layout (visual structure of page elements)
+      li Evolution of the web
+      li <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox</a> (new CSS property to position elements)
+  li You have some experience with CSS
+  li You’ve previously worked with shady CSS
+  li You work with a team
+  li You want to meet other cool people in the industry
+
+p Talks level: Beginner/Intermediate/Advanced
+
+hr
+
+h2 Our Amazing Sponsors
+
+p This meetup wouldn&rsquo;t be possible without our amazing sponsors:
+
+.row.sponsor
+  .col-lg-3
+    p: a(href="https://harp.io"): img.sponsor-logo(src="/img/sponsors/chloi.png")
+  .col-lg-9
+    p
+      | Thanks to <a href="https://chloi.io/">Chloi</a> for sponsoring the beer!
+      br
+      span.text-muted Chloi builds next-generation web and mobile experiences, with strong visual identites.
+
+.row.sponsor
+  .col-lg-3
+    p: a(href="https://hootsuite.com/"): img.sponsor-logo(src="/img/sponsors/hootsuite.png")
+  .col-lg-9
+    p
+      | Thanks to <a href="https://hootsuite.com/">Hootsuite</a> for sponsoring the venue!
+      br
+      span.text-muted HootSuite helps teams execute social media strategies across multiple social networks like Twitter, Facebook, LinkedIn and Google+ Pages from one secure web-based social relationship platform.

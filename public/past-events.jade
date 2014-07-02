@@ -1,0 +1,6 @@
+h1 Past events
+
+ul
+  each e, key in public.events._data
+    if e.passed
+      li: a(href="/events/" + key) No.#{ key } &mdash; #{ e.date } <small>at #{ e.location }</small>

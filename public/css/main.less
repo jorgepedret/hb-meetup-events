@@ -1,0 +1,102 @@
+@import "_bootstrap";
+
+body {
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.01em;
+}
+.wrapper {
+  padding: 0 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: @green;
+  small {
+    color: @blue;
+  }
+}
+.branding {
+  margin: 3em 0;
+  text-align: center;
+}
+.logo {
+  font-family: @font-family-monospace;
+  font-size: 2.7em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.logo-bracket,
+.logo-col,
+.logo-semicol {
+  color: #fff;
+}
+.logo-prop {
+  color: @blue;
+}
+.logo-value {
+  color: @pink;
+}
+.content {
+  background: lighten(@gray, 2%);
+  padding: 20px;
+}
+hr {
+  border: none;
+  border-bottom: #666 solid 1px;
+}
+.footer {
+  margin: 3em 0;
+  text-align: center;
+}
+.speaker {
+  h3 {
+    margin-top: 0;
+  }
+  code {
+    background: none;
+    border: none;
+    color: #999;
+  }
+  strong {
+    color: @green;
+    font-weight: normal;
+  }
+  .level {
+    color: #777;
+    font-size: 14px;
+  }
+
+}
+
+.form-wrap {
+  background: #fff;
+  padding: 20px 10px;
+  font-size: 2em;
+}
+
+@media (min-width: @screen-tablet) {
+  body {
+    font-size: 16px;
+  }
+  p {
+    margin: 0 0 (16px * @line-height-base / 1.5);
+  }
+}
+@media (min-width: @screen-desktop) {
+  body {
+    font-size: 18px;
+  }
+  p {
+    margin-bottom: 20px * @line-height-base / 1.5;
+  }
+}
+.sponsor {
+  margin-bottom: 2em;
+}
+.sponsor-logo {
+  background: #fff;
+  padding: 10px;
+}

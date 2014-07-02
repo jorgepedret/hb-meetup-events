@@ -1,0 +1,17 @@
+{
+  "1": {
+    "title": "Modular CSS & Scalable Icons Techniques",
+    "description": "CSS Brigade #1: Modular CSS & Scalable Icons Techniques",
+    "theme": "sky"
+  },
+  "2": {
+    "title": "CSS Element Queries & Topcoat",
+    "description": "CSS Brigade #3: CSS Element Queries & Topcoat",
+    "theme": "sky"
+  },
+  "3": {
+    "title": "CSS Brigade #3",
+    "description": "CSS Brigade #3: Understanding CSS Pre-processors & Choosing a CSS Framework",
+    "theme": "sky"
+  }
+}
